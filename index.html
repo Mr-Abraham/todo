@@ -4,8 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TaskList App</title>
+    <meta name="description"
+        content="A todo app by Shivam Abraham, Where you can list your task according to your schedule without even sign up.">
+    <meta name="keywords"
+        content="Shivam, Abraham, Shivam Abraham, Mr Abraham, Shivam Abraham Developer, Todo App, Javascript">
+    <title>Todo App</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./images/todo.png" type="image/x-icon">
 </head>
 
 <body>
@@ -14,7 +19,7 @@
             <input type="text" id="ipt">
             <button id="btn">Add</button>
         </form>
-        <div class="container">
+        <div class="container" data-id="6904">
             <!-- <div class="box">
                 <h2>Apple</h2>
                 <img class="deleteImage" src="./images/trash.png" alt="Delete Icon">
@@ -24,14 +29,16 @@
                 <img class="deleteImage" src="./images/trash.png" alt="Delete Icon">
             </div> -->
         </div>
-        <button id="clear">Clear All</button>
+        <button id="clear">Clear All <img src="./images/trash.png" width="30px" alt="Clear all Image"></button>
     </div>
     <footer>
         <h3>Created By - <a href="https://www.frontendmentor.io/profile/Mr-Abraham" target="_blank">Shivam Abraham</a>
         </h3>
+        <br>
+        <p> <a href="https://www.flaticon.com/free-icons/to-do-list" title="to do list icons">To do list icons
+                created by Graphics Plazza - Flaticon</a></p>
     </footer>
     <script src="./app.js"></script>
 </body>
 
 </html>
-
